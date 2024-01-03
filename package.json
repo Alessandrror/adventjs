@@ -1,0 +1,18 @@
+{
+  "name": "adventjs",
+  "version": "1.0.0",
+  "description": "Solutions to the adventjs challenges",
+  "scripts": {
+    "test01": "node --test --loader ts-node/esm ./2023/challenge-01/index.test.ts",
+    "test02": "node --test --loader ts-node/esm ./2023/challenge-02/index.test.ts"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
